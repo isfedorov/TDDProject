@@ -12,5 +12,5 @@ namespace Src\Summator;
 interface ICombinable
 {
 
-    public function sumAsString($int, $string);
+    public function sum($int, $string);
 }

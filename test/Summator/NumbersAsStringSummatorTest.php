@@ -15,7 +15,7 @@ class NumbersAsStringSummatorTest extends AbstractSummatorTest
     public function testSummator()
     {
         $summator = new NumberSummator();
-        $this->assertEquals("1a", $summator->sumAsString(1,"a"));
+        $this->assertEquals("1a", $summator->sum(1,"a"));
     }
 
 }

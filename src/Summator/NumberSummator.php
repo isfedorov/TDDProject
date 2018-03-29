@@ -19,7 +19,7 @@ class NumberSummator implements ICombinable
     {
     }
 
-    public function sumAsString($int, $string): string 
+    public function sum($int, $string): string
     {
         return "$int$string";
     }
