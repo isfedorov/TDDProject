@@ -1,0 +1,17 @@
+{
+  "name": "unit testing",
+  "description": "testing unit testing",
+  "require": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "test/"
+    }
+  }
+}
