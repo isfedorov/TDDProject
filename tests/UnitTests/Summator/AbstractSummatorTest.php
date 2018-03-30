@@ -13,6 +13,4 @@ use PHPUnit\Framework\TestCase;
 abstract class AbstractSummatorTest extends TestCase
 {
     public function testSummator(){}
-
-    public function testSpliterator(){}
 }

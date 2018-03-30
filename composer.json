@@ -2,16 +2,17 @@
   "name": "unit testing",
   "description": "testing unit testing",
   "require": {
-    "phpunit/phpunit": "^7"
+    "codeception/codeception": "^2.4@dev"
   },
   "autoload": {
     "psr-4": {
-      "Src\\": "src/"
+      "MyProject\\Src\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Test\\": "test/"
+      "MyProject\\UnitTests\\": "tests/UnitTests",
+      "MyProject\\Codeception\\Tests\\":"tests/CodeceptionTests"
     }
   }
 }
