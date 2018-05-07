@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StringToStringSummatorTest and 2 more" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="MyProject\UnitTests\Summator\AbstractSummatorTest" directory="$PROJECT_DIR$/tests/UnitTests/Summator" scope="Pattern">
+      <test_patterns>
+        <composite_test_pattern class_fqn="MyProject\UnitTests\Summator\StringToStringSummatorTest" file_path="$PROJECT_DIR$/tests/UnitTests/Summator/StringToStringSummatorTest.php" />
+        <composite_test_pattern class_fqn="MyProject\UnitTests\Summator\NumberToNumerSummatorTest" file_path="$PROJECT_DIR$/tests/UnitTests/Summator/NumberToNumerSummatorTest.php" />
+        <composite_test_pattern class_fqn="MyProject\UnitTests\Summator\NumbersAsStringSummatorTest" file_path="$PROJECT_DIR$/tests/UnitTests/Summator/NumbersAsStringSummatorTest.php" />
+      </test_patterns>
+    </TestRunner>
+    <method v="2" />
+  </configuration>
+</component>
