@@ -6,23 +6,12 @@
  * Time: 20:28
  */
 
-namespace Src\Summator;
-
+namespace MyProject\Src\Summator;
 
 class StringToStringSummator
 {
-
-    /**
-     * StringToStringSummator constructor.
-     */
-    public function __construct()
-    {
-    }
-
     public function sum($int, $string): string
     {
         return "$int$string";
     }
-
-
 }

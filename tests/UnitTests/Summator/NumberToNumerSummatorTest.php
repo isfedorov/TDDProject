@@ -6,9 +6,9 @@
  * Time: 10:22 PM
  */
 
-namespace Test\Summator;
+namespace MyProject\UnitTests\Summator;
 
-use Src\Summator\NumberMathSummator;
+use MyProject\Src\Summator\NumberMathSummator;
 
 class NumberToNumerSummatorTest extends AbstractSummatorTest
 {

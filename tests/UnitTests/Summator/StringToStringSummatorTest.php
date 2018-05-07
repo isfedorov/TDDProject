@@ -6,9 +6,9 @@
  * Time: 20:26
  */
 
-namespace Test\Summator;
+namespace MyProject\UnitTests\Summator;
 
-use Src\Summator\StringToStringSummator;
+use MyProject\Src\Summator\StringToStringSummator;
 
 class StringToStringSummatorTest extends AbstractSummatorTest
 {

@@ -6,11 +6,10 @@
  * Time: 17:07
  */
 
-namespace Src\Summator;
+namespace MyProject\Src\Summator;
 
 
 interface ICombinable
 {
-
     public function sum($int, $string);
 }

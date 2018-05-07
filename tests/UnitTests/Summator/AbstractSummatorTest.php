@@ -6,7 +6,7 @@
  * Time: 16:45
  */
 
-namespace Test\Summator;
+namespace MyProject\UnitTests\Summator;
 
 use PHPUnit\Framework\TestCase;
 

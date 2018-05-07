@@ -6,9 +6,10 @@
  * Time: 16:55
  */
 
-namespace Test\Summator;
+namespace MyProject\UnitTests\Summator;
 
-use Src\Summator\NumberSummator;
+
+use MyProject\Src\Summator\NumberSummator;
 
 class NumbersAsStringSummatorTest extends AbstractSummatorTest
 {

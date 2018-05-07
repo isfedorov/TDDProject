@@ -6,19 +6,10 @@
  * Time: 10:26 PM
  */
 
-namespace Src\Summator;
-
+namespace MyProject\Src\Summator;
 
 class NumberMathSummator implements ICombinable
 {
-
-    /**
-     * NumberMathSummator constructor.
-     */
-    public function __construct()
-    {
-    }
-
     public function sum($int, $int1): int
     {
         return $int+$int1;
