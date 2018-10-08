@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="get-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http">
+    <method v="2" />
+  </configuration>
+</component>
