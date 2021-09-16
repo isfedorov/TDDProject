@@ -1,8 +1,8 @@
 {
-  "name": "unit testing",
+  "name": "my/test",
   "description": "testing unit testing",
   "require": {
-    "codeception/codeception": "^2.4@dev"
+    "codeception/codeception": "@stable"
   },
   "autoload": {
     "psr-4": {
